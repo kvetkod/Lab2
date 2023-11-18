@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-class OP {
+class OperatingSystem {
 private:
 	string name;
 	string version;

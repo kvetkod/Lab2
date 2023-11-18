@@ -3,7 +3,7 @@
 
 
 
-void OP::Install(bool use) {
+void OperatingSystem::Install(bool use) {
 	if (use) {
 		cout << "You already have op" << endl;
 	}
@@ -19,6 +19,6 @@ void OP::Install(bool use) {
 	}
 }
 
-void OP::ShowInformation() {
+void OperatingSystem::ShowInformation() {
 	cout << name << " " << version << endl;
 }
